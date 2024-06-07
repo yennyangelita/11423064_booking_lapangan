@@ -41,7 +41,7 @@
                             @if (Auth::user()?->role_id == 1 || Auth::user()?->role_id == 2)
 
                             <a href="{{ route('manageservices') }}?search={{ $service->slug }}">
-                                <x-button class="px-5 py-2 text-white bg-pink-500 rounded-md hover:bg--600">
+                                <x-button class="px-5 py-2 text-white bg-green-500 rounded-md hover:bg--600">
                                     Manage
                                 </x-button>
                             </a>
@@ -314,8 +314,8 @@
 {{--                                                <label--}}
 {{--                                                    class="group relative flex items-center justify-center rounded-md border py-3 px-4 text-sm font-medium uppercase  focus:outline-none sm:flex-1 cursor-pointer shadow-sm"--}}
 {{--                                                    x-bind:class="{--}}
-{{--                                                            'bg-pink-500 text-white ': selectedTimeSlot === '{{ $timeSlot->id }}',--}}
-{{--                                                            'bg-gray-50 text-gray-800 hover:bg-pink-100': selectedTimeSlot !== '{{ $timeSlot->id }}',--}}
+{{--                                                            'bg-green-500 text-white ': selectedTimeSlot === '{{ $timeSlot->id }}',--}}
+{{--                                                            'bg-gray-50 text-gray-800 hover:bg-green-100': selectedTimeSlot !== '{{ $timeSlot->id }}',--}}
 {{--                                                        }"--}}
 {{--                                                >--}}
 {{--                                                    <input type="radio" name="time-slot-choice"--}}

@@ -19,7 +19,7 @@
             <tr
 
                     @if($appointment)
-                        class = "bg-pink-50 hover:bg-pink-100"
+                        class = "bg-green-50 hover:bg-green-100"
                     @else
                         class="hover:bg-gray-50"
                     @endif

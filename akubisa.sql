@@ -154,7 +154,7 @@ CREATE TABLE `deals` (
 --
 
 INSERT INTO `deals` (`id`, `name`, `description`, `discount`, `start_date`, `end_date`, `is_hidden`, `created_at`, `updated_at`) VALUES
-(1, 'Deal 1', 'deal with benaya ', 10, '2024-05-22', '2024-05-25', 0, '2024-05-21 15:08:53', '2024-05-22 06:46:52');
+(1, 'Deal 1', 'deal with imel ', 10, '2024-05-22', '2024-05-25', 0, '2024-05-21 15:08:53', '2024-05-22 06:46:52');
 
 -- --------------------------------------------------------
 
@@ -313,7 +313,7 @@ CREATE TABLE `password_reset_tokens` (
 --
 
 INSERT INTO `password_reset_tokens` (`email`, `token`, `created_at`) VALUES
-('yosiagurning@gmail.com', '$2y$10$ZX5J9u.aiEg3eXjS9.ZRiuMPCd8GeOC4Ee7AJcrs94owgI2HLCnvq', '2024-05-22 06:02:58');
+('yennygurning@gmail.com', '$2y$10$ZX5J9u.aiEg3eXjS9.ZRiuMPCd8GeOC4Ee7AJcrs94owgI2HLCnvq', '2024-05-22 06:02:58');
 
 -- --------------------------------------------------------
 
@@ -389,7 +389,7 @@ INSERT INTO `services` (`id`, `name`, `slug`, `description`, `image`, `price`, `
 (1, 'Field Cleaning', 'Field-Cleaning', 'Get great service cleaning extensions for a stylish field \r\n look.', 'hair.jpg', '1250.00', 'Choose from a variety of Field Cleaning.', NULL, 'Adds length and clean to your field.', 'Avoid harsh chemicals on your nails to maintain the extensions.', NULL, 1, 0, '2024-05-21 15:08:53', '2024-05-22 06:06:40'),
 (2, 'seat', 'seat', 'Add vibrant highlights to your field view for most experince of view.', 'skin.jpg', '3000.00', 'Consult with our staff for the best shade selection.', '', 'Transform your field look with our staff.', '', 'Patch test required for new clients with new recomend.', 3, 0, '2024-05-21 15:08:53', '2024-05-21 15:08:53'),
 (3, 'new-ball', 'new-ball', 'Revitalize your ball with deep conditioning service.', 'nails.jpg', '4000.00', 'Recommended for dry and damaged ball.', NULL, 'Nourish and repair your ball for improved texture and shine.', 'Use recommended ball masks for ongoing maintenance.', NULL, 3, 0, '2024-05-21 15:08:53', '2024-05-21 15:08:53'),
-(4, 'Changes room', 'Changes-room', 'Relaxing scalp massage to rejuvenate your foot.', 'makeup.jpg', '3500.00', 'Enjoy a soothing massage with aromatic oils.', 'Massage oils may contain allergens; inform us of any allergies.', 'Promote scalp health and reduce stress with this pampering treatment.', 'Take time to relax and destress after the treatment.', NULL, 3, 0, '2024-05-21 15:08:53', '2024-05-21 15:08:53');
+(4, 'Changes room', 'Changes-room', 'Relaxing scalp massage to rejuvenate your foot.', 'loker.jpg', '3500.00', 'Enjoy a soothing massage with aromatic oils.', 'Massage oils may contain allergens; inform us of any allergies.', 'Promote scalp health and reduce stress with this pampering treatment.', 'Take time to relax and destress after the treatment.', NULL, 3, 0, '2024-05-21 15:08:53', '2024-05-21 15:08:53');
 
 -- --------------------------------------------------------
 
@@ -507,9 +507,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `two_factor_secret`, `two_factor_recovery_codes`, `two_factor_confirmed_at`, `phone_number`, `remember_token`, `current_team_id`, `profile_photo_path`, `status`, `created_at`, `updated_at`, `role_id`) VALUES
-(17, 'Yosia Yehezkiel Gurning', 'yosiagurning@gmail.com', NULL, '$2y$10$F/Lps72Yob/mpLMvP000puhOE3xRJ7xiAd2eO2eItMP9u0drl91k6', NULL, NULL, NULL, '0812609704', NULL, NULL, NULL, 1, '2024-05-21 15:26:41', '2024-05-21 15:26:41', 1),
-(19, 'benaya', 'benaya@gmail.com', NULL, '$2y$10$YptJnkBMVUDMMDylByIyQOp3kgwAIxTxECZT6eY77OwinnKTT7gKi', NULL, NULL, NULL, '1234567890', NULL, NULL, NULL, 1, '2024-05-22 06:13:34', '2024-05-22 06:13:34', 3),
-(20, 'yudi', 'yudi@gmail.com', NULL, '$2y$10$quA/Jb3ad/bu6tjQeoqnTu9wPcXkMRRBl/Urr/B0lu5EB5k6qJbsO', NULL, NULL, NULL, '0987654321', NULL, NULL, NULL, 1, '2024-05-22 06:44:31', '2024-05-22 06:44:31', 2);
+(17, 'Yenny Angellita Gurning', 'yennygurning@gmail.com', NULL, '$2y$10$F/Lps72Yob/mpLMvP000puhOE3xRJ7xiAd2eO2eItMP9u0drl91k6', NULL, NULL, NULL, '0812609704', NULL, NULL, NULL, 1, '2024-05-21 15:26:41', '2024-05-21 15:26:41', 1),
+(19, 'imel', 'imel@gmail.com', NULL, '$2y$10$YptJnkBMVUDMMDylByIyQOp3kgwAIxTxECZT6eY77OwinnKTT7gKi', NULL, NULL, NULL, '1234567890', NULL, NULL, NULL, 1, '2024-05-22 06:13:34', '2024-05-22 06:13:34', 3),
+(20, 'afrian', 'afrian@gmail.com', NULL, '$2y$10$quA/Jb3ad/bu6tjQeoqnTu9wPcXkMRRBl/Urr/B0lu5EB5k6qJbsO', NULL, NULL, NULL, '0987654321', NULL, NULL, NULL, 1, '2024-05-22 06:44:31', '2024-05-22 06:44:31', 2);
 
 --
 -- Indexes for dumped tables

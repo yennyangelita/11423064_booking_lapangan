@@ -5,8 +5,8 @@
 
 
     <div class="relative">
-        {{-- <img class="w-full" src="{{ asset('images\banner-salon.png') }}" alt="Banner image"> --}}
-        {{-- <img class="max-h-fit w-full" src="{{ asset('images\salon1.png') }}" alt="Banner image"> --}}
+        {{-- <img class="w-full" src="{{ asset('images\badminton.png') }}" alt="Banner image"> --}}
+        {{-- <img class="max-h-fit w-full" src="{{ asset('images\lapangan1.png') }}" alt="Banner image"> --}}
         <!--
   Heads up! 👋
 
@@ -14,7 +14,7 @@
 -->
 
 <section
-class="relative bg-cover bg-center bg-no-repeat " style="background-image: url({{ asset('images/salon1.png') }}" ;>
+class="relative bg-cover bg-center bg-no-repeat " style="background-image: url({{ asset('images/lapangan1.png') }}" ;>
 <div class="absolute inset-0 bg-gradient-to-r from-white/95 to-white/0 ltr:bg-gradient-to-r rtl:bg-gradient-to-l sm:bg-transparent sm:from-white/95 sm:to-white/0"></div>
 
 <div
@@ -23,23 +23,23 @@ class="relative bg-cover bg-center bg-no-repeat " style="background-image: url({
   <div class="max-w-xl text-left ltr:sm:text-left rtl:sm:text-right">
     <h1 class="text-3xl font-extrabold sm:text-5xl text-neutral-700">
       Find Your Perfect Sport training Experience at
-      <strong class="block font-extrabold text-pink-500">
-        Gurning Badminton Field.      </strong>
+      <strong class="block font-extrabold text-green-500">
+      Badminton Court Booking.      </strong>
     </h1>
 
     <p class="mt-4 max-w-lg sm:text-xl/relaxed">
-      Discover a World of sport with Badminton field booking.
+      Discover a World of sport with Badminton Court Booking.
          </p>
 
     <div class="mt-8 flex flex-wrap gap-4 text-center">
       <a
         href="{{route('services')}}"
-        class="block w-full rounded bg-pink-500 px-12 py-3 text-lg font-medium text-white shadow hover:bg-pink-700 focus:outline-none focus:ring active:bg-pink-500 sm:w-auto"
+        class="block w-full rounded bg-green-500 px-12 py-3 text-lg font-medium text-white shadow hover:bg-green-700 focus:outline-none focus:ring active:bg-green-500 sm:w-auto"
       >
 Book Now      </a>
 <a
           href="{{route('services')}}"
-          class="block w-full rounded bg-white px-12 py-3 text-lg font-medium text-pink-500 shadow hover:text-pink-600 focus:outline-none focus:ring-offset-pink-400 active:text-pink-500 sm:w-auto"
+          class="block w-full rounded bg-white px-12 py-3 text-lg font-medium text-green-500 shadow hover:text-green-600 focus:outline-none focus:ring-offset-green-400 active:text-green-500 sm:w-auto"
         >
           Browse Services
         </a>
@@ -51,29 +51,29 @@ Book Now      </a>
 </div>
 </section>
 
-        {{-- <img class="w-full bg-cover" src="{{ asset('images\Salon2.jpg') }}" alt="Banner image"> --}}
-        {{-- <div class="absolute right-1 top-5 font-black text-pink-600 text-7xl">30% OFF <br>THIS SEASON</div> --}}
+        {{-- <img class="w-full bg-cover" src="{{ asset('images\lapangan2.jpg') }}" alt="Banner image"> --}}
+        {{-- <div class="absolute right-1 top-5 font-black text-green-600 text-7xl">30% OFF <br>THIS SEASON</div> --}}
  <div>
-    <div class="text-center text-4xl font-semibold text-pink-500 m-2 mt-5">Categories</div>
+    <div class="text-center text-4xl font-semibold text-green-500 m-2 mt-5">Categories</div>
 
     <div class="container flex gap-10 p-10 pt-3 justify-center mx-auto">
       <a href="#" class="text-center gap-2 duration-300 hover:scale-105">
-          <img class="w-60 rounded-xl" src="{{ asset('images/hair.jpg')}}" alt="">
-          <span class="text-pink-500 text-2xl">field</span>
+          <img class="w-60 rounded-xl" src="{{ asset('images/lapangan3.jpg')}}" alt="">
+          <span class="text-green-500 text-2xl">field</span>
       </a>
       <a href="#" class="text-center gap-2 duration-300 hover:scale-105">
-        <img class="w-60 rounded-xl" src="{{ asset('images/nails.jpg')}}"  alt="">
-        <span class="text-pink-500 text-2xl">ball</span>
+        <img class="w-60 rounded-xl" src="{{ asset('images/kok.jpg')}}"  alt="">
+        <span class="text-green-500 text-2xl">ball</span>
 
       </a>
       <a href="#" class="text-center gap-2 duration-300 hover:scale-105">
         <img class="w-60 rounded-xl" src="{{ asset('images/skin.jpg')}}" alt="">
-        <span class="text-pink-500 text-2xl">seat</span>
+        <span class="text-green-500 text-2xl">seat</span>
 
       </a>
       <a href="#" class="text-center gap-2 duration-300 hover:scale-105">
-        <img class="w-60 rounded-xl" src="{{ asset('images/makeup.jpg')}}" alt="">
-        <span class="text-pink-500 text-2xl">change room</span>
+        <img class="w-60 rounded-xl" src="{{ asset('images/loker.jpg')}}" alt="">
+        <span class="text-green-500 text-2xl">change room</span>
       </a>
     </div>
 
@@ -82,7 +82,7 @@ Book Now      </a>
     <section class="pt-5 bg-white">
       <div class="md:w-4/5 mx-auto">
         <div class="mx-auto text-center md:max-w-xl lg:max-w-3xl">
-          <h3 class="mb-6 text-3xl text-pink-500 font-bold">Popular Services</h3>
+          <h3 class="mb-6 text-3xl text-green-500 font-bold">Popular Services</h3>
           <p class="mb-6 pb-2 text-gray-700 md:mb-12 md:pb-0">
             Services Popular among our customers.
           </p>
@@ -103,7 +103,7 @@ Book Now      </a>
 
       <div class="flex justify-end mx-auto pb-5 gap-3 md:w-3/4">
 
-        <a href="{{route('services')}}" class="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded">
+        <a href="{{route('services')}}" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
           View All Services
         </a>
       </div>
@@ -112,7 +112,7 @@ Book Now      </a>
         {{-- <x-button>View all services</x-button>   --}}
         {{-- <a
           href="#"
-          class="block w-full rounded bg-pink-500 px-12 py-3 text-lg font-medium text-white shadow hover:bg-pink-700 focus:outline-none focus:ring active:bg-pink-500 sm:w-auto"
+          class="block w-full rounded bg-green-500 px-12 py-3 text-lg font-medium text-white shadow hover:bg-green-700 focus:outline-none focus:ring active:bg-green-500 sm:w-auto"
         >
   Browse Services    </a> --}}
 
@@ -120,7 +120,7 @@ Book Now      </a>
 
 <section class=" w-3/4 p-3 mx-auto pt-5">
 <div>
-  <div class="text-center text-4xl font-semibold text-pink-500 m-2">Offers</div>
+  <div class="text-center text-4xl font-semibold text-green-500 m-2">Offers</div>
 </div>
 <div class="flex gap-10 ">
     @if($deals->count() > 0)
@@ -131,7 +131,7 @@ Book Now      </a>
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">{{ $deal->name }}</h5>
                     </a>
                     <p class="mb-3 font-normal text-gray-700 ">{{ $deal->description }}</p>
-                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-pink-500 rounded-lg hover:bg-pink-800 focus:ring-4 focus:outline-none focus:ring-pink-300 ">
+                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-500 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 ">
                         View Offer
                         <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                     </a>
@@ -149,7 +149,7 @@ Book Now      </a>
     {{-- Gallery --}}
     <section class="pt-5 pb-5">
         <div class="mx-auto text-center md:max-w-xl lg:max-w-3xl">
-          <h3 class="text-3xl text-pink-500 font-bold">Gallery</h3>
+          <h3 class="text-3xl text-green-500 font-bold">Gallery</h3>
         </div>
         <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
           <div class="-m-1 flex flex-wrap md:-m-2">
@@ -208,7 +208,7 @@ Book Now      </a>
     <section class="bg-white pt-5">
       <div class="md:w-3/4 mx-auto">
         <div class="mx-auto text-center md:max-w-xl lg:max-w-3xl">
-          <h3 class="mb-6 text-3xl text-pink-500 font-bold">Field Service</h3>
+          <h3 class="mb-6 text-3xl text-green-500 font-bold">Field Service</h3>
           <p class="mb-6 pb-2 text-gray-700 md:mb-12 md:pb-0">
             Here are the Field Service from our customers who have visited our field.
           </p>
@@ -227,7 +227,7 @@ Book Now      </a>
               <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block h-7 w-7 pr-2" viewBox="0 0 24 24">
                 <path d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z"></path>
               </svg>
-              I had the most amazing experience at Gurning field! The staff were so friendly and welcoming, and my body looked absolutely stunning. I received so many compliments after my appointment and I can't wait to go back!
+              I had the most amazing experience at Badminton Court Booking! The staff are very friendly and welcoming, and the grounds are very clean. I can't wait to go back again!
             </p>
             <ul class="mb-0 flex items-center justify-center">
               <li>
@@ -269,7 +269,7 @@ Book Now      </a>
               <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block h-7 w-7 pr-2" viewBox="0 0 24 24">
                 <path d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z"></path>
               </svg>
-              "I had the best experince of my life at Gurning badminton field! The tariner listened to exactly what I wanted and then gave me a training that exceeded my expectations. I felt so pampered and taken care of throughout the whole process. I can't wait to come back for my next appointment!
+              "I had the best experince of my life at Badminton Court Booking! The tariner listened to exactly what I wanted and then gave me a training that exceeded my expectations. I felt so pampered and taken care of throughout the whole process. I can't wait to come back for my next appointment!
             </p>
             <ul class="mb-0 flex items-center justify-center">
               <li>
@@ -311,7 +311,7 @@ Book Now      </a>
               <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block h-7 w-7 pr-2" viewBox="0 0 24 24">
                 <path d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z"></path>
               </svg>
-              "I had a last-minute body emergency and Gurning field saved the day! The staff were able to fit me in right away and they did an amazing job. I can't thank them enough for their professionalism and expertise. I will definitely be coming back!"
+              "I had a last-minute body emergency and Badminton Court Booking saved the day! The staff were able to fit me in right away and they did an amazing job. I can't thank them enough for their professionalism and expertise. I will definitely be coming back!"
             </p>
             <ul class="mb-0 flex items-center justify-center">
               <li>
@@ -349,7 +349,7 @@ Book Now      </a>
 
     <section class="mb-12" id="offer-banner">
 
-      <div class="bg-pink-600 alert alert-dismissible fade show fixed bottom-0 right-0 left-0 z-[1030] w-full py-4 px-6 text-white md:flex justify-between items-center text-center md:text-left">
+      <div class="bg-green-600 alert alert-dismissible fade show fixed bottom-0 right-0 left-0 z-[1030] w-full py-4 px-6 text-white md:flex justify-between items-center text-center md:text-left">
         <div class="mb-4 md:mb-0 flex items-center flex-wrap justify-center md:justify-start">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="w-4 h-4 mr-2">
             <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
@@ -370,7 +370,7 @@ Book Now      </a>
     </section>
     <!-- Footer container -->
 <footer
-class="bg-pink-500 text-center text-neutral-100 lg:text-left">
+class="bg-green-500 text-center text-neutral-100 lg:text-left">
 <div
   class="flex items-center justify-center border-b-2 border-neutral-200 p-6 lg:justify-between">
   <div class="mr-12 hidden lg:block">
@@ -423,8 +423,8 @@ class="bg-pink-500 text-center text-neutral-100 lg:text-left">
     <div>
       <h6
         class="mb-4 flex items-center justify-center font-semibold text-xl md:justify-start">
-        <img class="w-10 h-10" src="{{ asset('images/logo-white.png')}}" alt="">
-        Gurning Badminton Field
+        <img class="w-10 h-10" src="{{ asset('images/logo_yenny.png')}}" alt="">
+        Badminton Court Booking
     </h6>
       <p class="mb-4 flex items-center justify-center md:justify-start">
         <svg
@@ -450,7 +450,7 @@ class="bg-pink-500 text-center text-neutral-100 lg:text-left">
           <path
             d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
         </svg>
-        info --> @gurningBadmintonfield.com
+        info --> @yennycantik@gmail.com
       </p>
       <p class="mb-4 flex items-center justify-center md:justify-start">
         <svg
@@ -463,7 +463,7 @@ class="bg-pink-500 text-center text-neutral-100 lg:text-left">
             d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
             clip-rule="evenodd" />
         </svg>
-        081260970457
+        0812 nanti malam kita berdua
       </p>
 
     </div>
@@ -528,7 +528,7 @@ class="bg-pink-500 text-center text-neutral-100 lg:text-left">
   <a
     class="font-semibold text-neutral-600"
     href="/"
-    >Gurning Badminton Field</a
+    >Badminton Court Booking</a
   >
 </div>
 </footer>

@@ -48,7 +48,7 @@
             <!-- Role -->
             <div class="col-span-6 sm:col-span-4 my-2">
                 <x-label for="role" value="{{ __('Role') }}" />
-                <select name="role" id="role" class="border-gray-300 focus:border-pink-500 focus:ring-pink-500 rounded-md shadow-sm">
+                <select name="role" id="role" class="border-gray-300 focus:border-green-500 focus:ring-green-500 rounded-md shadow-sm">
                     <option value="employee">Employee</option>
                     <option value="customer">Customer</option>
                 </select>
