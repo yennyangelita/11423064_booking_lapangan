@@ -1,7 +1,7 @@
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
-DB_PORT=3307
-DB_DATABASE=akubisa
+DB_PORT=3306
+DB_DATABASE=booking_lapangan
 DB_USERNAME=root
 DB_PASSWORD=
 port 8080
@@ -12,6 +12,9 @@ Admin : yennygurning@gmail.com [pw(Gurning123)]
 employee : afrian@gmail.com [pw(admin123)]
 customer : imel@gmail.com [pw(customer123)]
 
-boleh dicoba
+Ke pasar beli manggis,
+Jangan lupa bawa tas.
+Kalau bisa dapat nilai bagus,
+Nanti traktir bakso sekilas!
 
-sekalian pinjam dong 100 hehehehe
+Tuhan Yesus menyertaimu Bapak/Ibu
