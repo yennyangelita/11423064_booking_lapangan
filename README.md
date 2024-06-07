@@ -18,3 +18,5 @@ Kalau bisa dapat nilai bagus,
 Nanti traktir bakso sekilas!
 
 Tuhan Yesus menyertaimu Bapak/Ibu
+
+Kalo bisa AB ya Pak hihi
